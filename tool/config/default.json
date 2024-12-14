@@ -1,0 +1,42 @@
+{
+  "batch": {
+    "oldvalidationFile": "./data/final-sample-ctgov.csv",
+    "validationFile": "./data/validation_dataset_missed.csv",
+    "delimiter": ",",
+    "olddelimiter": ";",
+    "seed": "tuesday",
+    "sampleSize": 174,
+    "fileName": "random_sample_1",
+    "resultModel": "gpt-4o-mini",
+    "queryModel": "gpt-4o-mini",
+    "fakeAbstractsModel": "gpt-4o-mini",
+    "maxTokensQuery": 10000,
+    "maxTokensResults": 10000,
+    "maxTokensFakeAbstracts": 10000,
+    "maxCompletionTokensResults": 700,
+    "maxCompletionTokensQuery": 2000,
+    "pubLimit": 15,
+    "gptSeed": 42,
+    "isValidation": false,
+    "gptQueriesBatchInputFile": "./data/gpt_queries_batch_input.csv",
+    "systemPromptResults": "./prompts/systemPromptSingleAbstract.txt",
+    "systemPromptQueries": "./prompts/systemPromptPubmedSearchGeneration.txt",
+    "systemPromptFakeAbstracts": "./prompts/systemPromptFakeAbstracts.txt",
+    "limits": {
+      "pubmed_naive": 5,
+      "linked_at_registration": 0,
+      "google_scholar": 10,
+      "google_scholar_rescrape": 0,
+      "pubmed_enhanced": 5,
+      "pubmed_related_linked": 0,
+      "already_identified": 0,
+      "summary_results": 0,
+      "nct_match": 10
+    }
+  },
+  "scraping": {
+    "nDoisPerSource": 3,
+    "nRetries": 3,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  }
+}

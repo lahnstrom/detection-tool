@@ -1,0 +1,101 @@
+nctId,manualHasPublication,manualHasSummaryResults,manualPublicationPmids,manualIdentificationStep,toolTokens,toolResults,hasError,toolPromptedPmids,toolResultPmids,toolSuccess,toolIdentSteps,toolTruncated
+NCT02099292,true,false,25546611,Systematic Google search,2383,true,false,25546611,25546611,true,"pubmed_enhanced,pubmed_naive",false
+NCT01406067,true,false,26522864,Systematic Google search,11491,true,false,"29347904,29594368,29948233,31620032,35398192,35704288,35804379,35874653,36908248","29347904,29594368,29948233,31620032",true,"pubmed_enhanced,linked_at_registration",false
+NCT02276469,true,false,28364685,Systematic Google search,7239,false,false,"10109801,32336984,32996442,36037780,37486756,38236636",,true,,false
+NCT03846661,true,false,32239495,Systematic Google search,5796,false,false,"38485577,38959298,38993476,39043831,39314124",,true,,false
+NCT02659371,false,false,NA,NA,1199,false,false,29391380,,true,,false
+NCT01926158,true,false,31687650,Systematic Google search,10817,false,false,"14996560,17239668,19916684,21074160,22489886,27334320,32163613,34621506",,true,,false
+NCT01106365,true,false,24643119,Other,7854,true,false,"29259998,39444705,39474367,39496464,39500829,39501631",29259998,true,linked_at_registration,false
+NCT01950715,true,false,32636665,Systematic Google search,1342,false,false,34621506,,true,,false
+NCT01834573,true,false,25823689,Systematic Google search,1228,false,false,34621506,,true,,false
+NCT00847379,true,false,NA,Systematic Google search,0,false,false,,,true,,false
+NCT03061448,false,false,NA,NA,12805,false,false,"35916600,37793927,37986585,38746821,38757087,38774371,38802281,39381804,39477343,39495605",,true,,false
+undefined,true,false,31239180,Systematic Google search,0,false,true,,,true,,false
+NCT01197508,true,true,25602163,Linked at the registration,0,false,false,,,true,,false
+undefined,false,false,NA,NA,0,false,true,,,true,,false
+NCT01119469,true,false,25495359,Systematic Google search,12335,true,false,"26204567,26513512,27126076,27532367,28956951,36521132,37597253,38238872,38803836,39137895","26204567,26513512,27126076,27532367,28956951",true,pubmed_enhanced,false
+NCT02234609,false,false,NA,NA,0,false,true,,,true,,false
+NCT01259830,false,false,NA,NA,8411,false,false,"39058451,39119994,39141688,39146321,39379830",,true,,false
+NCT00860730,true,false,22541180,Systematic Google search,1314,false,false,34621506,,true,,false
+NCT01317134,false,false,NA,NA,1242,false,false,34621506,,true,,false
+NCT01130493,true,false,25306200,Systematic Google search,0,false,false,,,true,,false
+undefined,false,false,NA,Other,0,false,true,,,true,,false
+NCT01786733,false,false,NA,NA,7130,false,false,"39300552,39351045,39425037,39480221,39494588",,true,,false
+NCT00778648,true,true,NA,Systematic Google search,0,false,false,,,true,,false
+NCT03052582,true,false,29229955,Linked at the registration,9557,true,false,"29229955,29235560,36195272,38890501,38903023,38991672,38999786,39164418",29229955,true,"pubmed_enhanced,linked_at_registration",false
+NCT00670436,true,false,22511572,Linked at the registration,12257,true,false,"21617163,22511572,22825918,23040575,26479969,37003986,37328392,37480891,37495797,38740722",22511572,true,"pubmed_enhanced,linked_at_registration",false
+NCT02500095,true,false,28324055,Systematic Google search,6338,true,false,"30325658,30576246,30594023,31724339,34621506","30576246,31724339",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT01839084,true,false,31288740,Linked at the registration,4037,true,false,"28719609,31288740,34621506","28719609,31288740",true,"pubmed_naive,linked_at_registration,pubmed_enhanced",false
+NCT01868412,true,false,NA,Systematic Google search,1186,false,false,34621506,,true,,false
+NCT01526447,true,false,25453528,Linked at the registration,8427,true,false,"25453528,26340656,37139325,37423627,38011030,38011739,39266899","25453528,26340656",true,linked_at_registration,false
+NCT03657953,false,false,NA,NA,1225,false,false,34621506,,true,,false
+NCT00919295,true,false,23737510,Systematic Google search,5149,true,false,"23737510,31073352,39493642",23737510,true,"pubmed_enhanced,pubmed_naive",false
+NCT00860730,true,false,25750010,Systematic Google search,1305,false,false,34621506,,true,,false
+NCT02916615,true,false,32091599,Linked at the registration,12017,true,false,"26522443,27071401,29694703,32091599,35745210,38369624,38866562,39019159,39414365,39438661","32091599,39019159",true,"pubmed_enhanced,linked_at_registration,pubmed_naive",false
+NCT01014507,true,false,20305034,Linked at the registration,6396,true,false,"20305034,20683422,23129737,34417822,34621506","20305034,23129737",true,"pubmed_naive,linked_at_registration",false
+NCT00924638,true,true,24963567,Linked at the registration,0,false,false,,,true,,false
+NCT02386410,true,false,36514489,Systematic Google search,6796,false,false,"38098336,38511886,38627307,38674800,39190154",,true,,false
+NCT04211311,true,false,35193705,Linked at the registration,2613,true,false,"34621506,35193705",35193705,true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT03270202,false,false,NA,NA,12205,false,false,"35161862,35925653,37641030,38713497,39394603,39419307,39436693,39486024,39488579",,true,,false
+NCT01065025,false,false,NA,NA,1138,false,false,34621506,,true,,false
+NCT03721094,true,false,31172325,Systematic Google search,16216,true,false,"11211039,16244534,20078759,21563940,22364906,23295321,23980026,25840896,26481267,28378077,31172325,31832243,32067096,33293910,34709147","28378077,31172325",true,"linked_at_registration,pubmed_enhanced",true
+NCT00735176,true,false,28012081,Linked at the registration,7254,true,false,"26289971,27061727,28012081,34351401,34621506","26289971,27061727,28012081,34351401",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT01378624,false,false,NA,NA,2813,false,false,"34161347,34621506",,true,,false
+NCT01271361,true,false,23396493,Linked at the registration,29404,true,false,"10547403,10607811,11405500,15708704,16022970,16159983,16504620,16883024,17045887,17692740,17765119,17985382,18539223,18775918,19004841","16022970,17045887",true,linked_at_registration,true
+NCT01582724,true,false,24499425,Linked at the registration,6532,false,false,"24499425,39067182,39177012,39180433,39253695,39427169",,true,,false
+NCT01485952,true,false,25223731,Systematic Google search,1218,false,false,34621506,,true,,false
+NCT02832700,true,false,32967742,Systematic Google search,1160,false,false,34621506,,true,,false
+NCT03663244,true,false,32228533,Linked at the registration,7772,true,false,"32228533,33597044,34621506,35142355,36609335,36959993",32228533,true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT00407667,true,false,21825004,Systematic Google search,1310,false,false,34621506,,true,,false
+NCT01035190,true,false,26465983,Linked at the registration,15382,true,false,"19590247,26465983,29320647,30922128,36043724,38297180,38597338,38605404,38744231","26465983,29320647,38597338,38605404",true,"linked_at_registration,pubmed_naive",false
+NCT00379470,true,false,22608262,Linked at the registration,15966,true,false,"15126372,17551011,18596382,22608262,24884522,28298023,34621506,36239858","17551011,22608262,28298023",true,"linked_at_registration,pubmed_enhanced,pubmed_naive",false
+NCT01278888,true,false,27160473,Linked at the registration,25189,true,false,"27160473,28459964,30838382,39303400,39507723,39507728,39507813,39507858,39508117","27160473,30838382",true,"pubmed_enhanced,linked_at_registration",false
+undefined,true,false,29024230,Linked at the registration,0,false,true,,,true,,false
+NCT01026233,true,false,22510871,Linked at the registration,11594,true,false,"22510871,22786877,23719719,30290902,33010817,34538863,34621506,38766629,39043499",23719719,true,linked_at_registration,false
+NCT00170326,true,false,21613427,Linked at the registration,9085,true,false,"17460018,18853096,19422581,21613427,23861381,26612882,34621506","21613427,23861381",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT02071511,false,false,NA,NA,1397,false,false,34621506,,true,,false
+NCT02043600,true,false,28378342,Linked at the registration,6884,true,false,"28378342,31927346,39320145,39343334,39389217,39424743,39495970","28378342,31927346",true,linked_at_registration,false
+undefined,true,false,22459779,Linked at the registration,0,false,true,,,true,,false
+NCT00531687,false,false,NA,NA,5566,false,false,"38531266,38564927,38871631,39080445,39506181",,true,,false
+NCT02377154,true,false,27560200,Systematic Google search,0,false,true,,,true,,false
+undefined,true,false,NA,Systematic Google search,0,false,true,,,true,,false
+NCT01316198,true,false,24103519,Systematic Google search,5488,false,false,"39095083,39360627,39408240,39426460,39494312",,true,,false
+NCT01714414,true,false,27941394,Systematic Google search,10105,false,false,"39153292,39189858,39312914,39401196,39459890",,true,,false
+NCT01400022,true,false,24696010,Linked at the registration,1930,true,false,24696010,24696010,true,"pubmed_naive,linked_at_registration",false
+undefined,true,false,27723957,Systematic Google search,0,false,true,,,true,,false
+NCT02455648,false,false,NA,NA,19840,true,false,"28408991,37792260,37951279,38002061,38335302,38627014",28408991,true,linked_at_registration,false
+NCT01979107,true,false,31537563,Linked at the registration,8908,true,false,"31537563,31604416,35742632,36103504,36325259,38116067","31537563,31604416",true,"pubmed_enhanced,linked_at_registration,pubmed_naive",false
+NCT01822353,true,true,29542268,Systematic Google search,0,false,false,,,true,,false
+NCT01890317,true,false,30026282,Linked at the registration,11861,true,false,"30026282,31306066,31615415,36005444,36498742,39444297,39474983,39475399,39475706,39503651","30026282,36005444,36498742",true,"linked_at_registration,pubmed_enhanced",false
+NCT02012803,true,false,27307495,Linked at the registration,4014,true,false,"27307495,28282504,34621506","27307495,28282504",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT01812304,true,false,24103530,Linked at the registration,8476,true,false,"24103530,37588260,37808259,38230409,38884027,39296646",24103530,true,linked_at_registration,false
+NCT03760601,true,false,32525244,Linked at the registration,9840,true,false,"32525244,33431807,33971951,39169230,39206517,39300443,39367054,39423197",32525244,true,linked_at_registration,false
+NCT01701843,false,false,NA,NA,1124,false,false,34621506,,true,,false
+NCT03116451,true,false,32327936,Linked at the registration,13566,true,false,"32327936,34130667,34968333,35155772,36637114,38816629,38990350,39137282,39325973,39394647",32327936,true,"pubmed_enhanced,linked_at_registration",false
+NCT03651791,true,false,31814830,Linked at the registration,10225,true,false,"23577035,24734781,31711513,31814830,35690799,36638837,36644821",31814830,true,"pubmed_naive,linked_at_registration",false
+NCT00678392,true,true,22056247,Linked at the registration,0,false,false,,,true,,false
+NCT00335543,true,false,25252602,Linked at the registration,12803,true,false,"18191528,25252602,39068945,39353477,39384515,39425807,39474535","18191528,25252602",true,"pubmed_enhanced,linked_at_registration",false
+NCT01266187,false,false,NA,NA,1515,false,false,34621506,,true,,false
+NCT01407588,false,false,NA,NA,8807,true,false,"28607610,30159751,30638392,32140547,34621506,35716856,39083480,39477342",28607610,true,pubmed_naive,false
+NCT03053336,true,false,36528609,Systematic Google search,10793,true,false,"29316905,36528609,36732788,38512333,39007440,39013647,39019242,39253735,39381824","29316905,36528609,36732788,38512333",true,"pubmed_enhanced,linked_at_registration",false
+NCT03410745,true,false,36720425,Systematic Google search,1232,true,false,36720425,36720425,true,pubmed_naive,false
+NCT00639834,false,false,NA,NA,7485,false,false,"34621506,38044241,38251590,38519817,38727535,39010815",,true,,false
+NCT01282827,true,false,22124039,Systematic Google search,5247,false,false,"36866155,37393440,37431104,38990307,39302646",,true,,false
+NCT00870155,false,false,NA,NA,5826,false,false,"39492055,39496109,39502189,39502222,39502271",,true,,false
+undefined,true,false,26341653,Systematic Google search,0,false,true,,,true,,false
+NCT03722225,true,false,31496994,Linked at the registration,2792,true,false,"31496994,34621506",31496994,true,"pubmed_naive,linked_at_registration",false
+NCT01956604,true,false,29884231,Linked at the registration,4898,true,false,"25887557,29884231,30901487,35725264","29884231,30901487",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT02066246,true,false,27440635,Systematic Google search,1188,false,false,34621506,,true,,false
+NCT01637025,false,false,NA,NA,4608,true,false,"23950762,25106082,25266604,34621506",23950762,true,pubmed_enhanced,false
+NCT01650805,true,true,27083332,Linked at the registration,0,false,false,,,true,,false
+NCT03316690,true,false,32979074,Linked at the registration,10307,true,false,"32979074,34784247,34965188,38053246,38352159,38507778,38845613,39427878","32979074,34784247",true,"pubmed_enhanced,linked_at_registration",false
+NCT00758277,true,false,22722516,Linked at the registration,3148,true,false,"16702910,22722516,34621506",22722516,true,"pubmed_naive,linked_at_registration",false
+NCT01023282,false,false,NA,NA,5786,false,false,"37217980,37954918,38712716,39263004,39425736",,true,,false
+NCT00762632,false,false,NA,NA,2360,false,false,"18184863,34621506",,true,,false
+NCT02398877,false,false,NA,NA,6654,false,false,"38581746,38619842,38902928,39251038,39448569",,true,,false
+NCT00575146,true,true,24728273,Linked at the registration,0,false,false,,,true,,false
+NCT01879241,true,false,29934198,Linked at the registration,7383,true,false,"15372249,29934198,30192007,35868251,37975796,38240416","29934198,38240416",true,"pubmed_enhanced,pubmed_naive,linked_at_registration",false
+NCT03371199,true,false,32566796,Systematic Google search,9404,false,false,"21184054,24971663,25812937,26333528,33517239,33561588,34718621,35305134,36481707",,true,,false
+NCT03659487,true,false,30840057,Linked at the registration,15232,true,false,"30840057,38289603,38329707,38493409,38753973,38820508,38984368,39102872,39173576,39223263,39428644",30840057,true,linked_at_registration,false
+NCT02539199,true,false,NA,Systematic Google search,1117,false,false,34621506,,true,,false
+NCT02356796,true,false,32386466,Systematic Google search,7510,true,false,"32386466,32609653,33033917,34621506,35762902,39350572","32386466,32609653",true,pubmed_enhanced,false
