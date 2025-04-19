@@ -1,0 +1,173 @@
+field1,nct_id,has_publication,publication_doi,publication_pmid,publication_url,identification_step,has_summary_results,completion_year,dataset
+3133,NCT00646854,Yes,10.1182/blood-2018-99-110429,NA,https://doi.org/10.1182/blood-2018-99-110429,Systematic Google search,No,2016,nordic
+3134,NCT00717938,Yes,10.1093/annonc/mdx716,29106448,https://linkinghub.elsevier.com/retrieve/pii/S0923753419350495,Linked at the registration,Yes,2017,nordic
+3135,NCT00760682,Yes,10.1016/j.radonc.2021.11.021,34843843,https://doi.org/10.1016/j.radonc.2021.11.021,Systematic Google search,Yes,2018,nordic
+3136,NCT00979641,Yes,10.21873/anticanres.11241,27919965,doi.org/10.21873/anticanres.11241,Cross-reference,No,2016,nordic
+3137,NCT02744872,Yes,10.1016/j.healun.2020.01.1342,32061508,https://doi.org/10.1016/j.healun.2020.01.1342,Systematic Google search,No,2016,nordic
+3138,NCT02636088,Yes,10.1016/j.ctarc.2020.100187,32619832,https://doi-org.ezproxy.its.uu.se/10.1016/j.ctarc.2020.100187,Systematic Google search,No,2017,nordic
+3139,NCT00887783,Yes,10.1016/j.radonc.2017.03.017,28410809,https://pubmed.ncbi.nlm.nih.gov/28410809/,Linked at the registration,Yes,2017,nordic
+3140,NCT00888511,No,NA,NA,NA,NA,Yes,2017,nordic
+3141,NCT01274273,Yes,10.1080/0284186X.2018.1433324,29392960,https://www.tandfonline.com/doi/full/10.1080/0284186X.2018.1433324,Linked at the registration,Yes,2017,nordic
+3142,NCT01387295,Yes,10.1016/j.breast.2018.12.002,30544058,https://www.sciencedirect.com/science/article/abs/pii/S096097761830331X?via%3Dihub,Linked at the registration,Yes,2017,nordic
+3143,NCT01387373,Yes,10.1016/j.breast.2018.12.002,30544058,https://doi.org/10.1016/j.breast.2018.12.002,Linked at the registration,Yes,2017,nordic
+3144,NCT01197144,Yes,10.1097/j.pain.0000000000002387,34224497,https://doi.org/10.1097/j.pain.0000000000002387,Systematic Google search,No,2017,nordic
+3145,NCT01449032,Yes,10.1155/2017/5237063,29333165,https://www.hindawi.com/journals/sci/2017/5237063/,Linked at the registration,Yes,2017,nordic
+3146,NCT01446328,Yes,10.1016/S2215-0366(20)30341-2,33069317,https://doi.org/10.1016/S2215-0366(20)30341-2,Systematic Google search,Yes,2017,nordic
+3147,NCT01172171,Yes,10.1007/s12265-017-9768-7,29027116,https://doi.org/10.1007/s12265-017-9768-7,Systematic Google search,Yes,2016,nordic
+3148,NCT01455259,Yes,10.1038/bjc.2016.42,27031851,https://doi.org/10.1038/bjc.2016.42,Linked at the registration,Yes,2016,nordic
+3149,NCT01496690,Yes,10.1016/j.schres.2017.09.014,28919128,https://doi.org/10.1016/j.schres.2017.09.014,Linked at the registration,Yes,2016,nordic
+3150,NCT01511146,Yes,10.1159/000499314,30999314,https://doi.org/10.1159/000499314,Linked at the registration,Yes,2018,nordic
+3151,NCT01397019,No,NA,NA,NA,NA,Yes,2016,nordic
+3152,NCT01390051,Yes,10.1016/j.thromres.2018.08.006,30114561,https://www.sciencedirect.com/science/article/pii/S0049384818304547,Linked at the registration,Yes,2016,nordic
+3153,NCT01423929,Yes,10.1111/echo.13599,28664557,https://onlinelibrary.wiley.com/doi/full/10.1111/echo.13599,Systematic Google search,No,2016,nordic
+3154,NCT01630941,Yes,10.1002/jbmr.3883,31589776,https://doi.org/10.1002/jbmr.3883,Systematic Google search,Yes,2017,nordic
+3155,NCT01587378,Yes,10.1016/S2213-8587(19)30002-6,30792154,https://doi.org/10.1016/S2213-8587(19)30002-6,Linked at the registration,Yes,2017,nordic
+3156,NCT01372176,Yes,10.1007/s00134-017-4880-3,28936712,https://doi.org/10.1007/s00134-017-4880-3,Linked at the registration,Yes,2016,nordic
+3157,NCT01582165,Yes,10.1002/ccd.28157,30790446,https://doi.org/10.1002/ccd.28157,Systematic Google search,No,2016,nordic
+3158,NCT01941771,Yes,10.1080/0284186x.2020.1851045,33259244,https://doi.org/10.1080/0284186x.2020.1851045,Linked at the registration,Yes,2019,nordic
+3159,NCT01867697,No,NA,NA,NA,NA,Yes,2019,nordic
+3160,NCT01821404,Yes,10.1016/j.eururo.2018.06.037,30031572,https://doi.org/10.1016/j.eururo.2018.06.037,Systematic Google search,No,2016,nordic
+3161,NCT01771328,No,NA,NA,NA,NA,No,2017,nordic
+3162,NCT01725204,Yes,10.1038/leu.2016.121,27133821,https://doi.org/10.1038/leu.2016.121,Linked at the registration,No,2019,nordic
+3163,NCT02083991,Yes,10.1016/j.ekir.2021.11.028,35155865,https://www.sciencedirect.com/science/article/pii/S2468024921015527,Systematic Google search,Yes,2019,nordic
+3164,NCT02040441,Yes,10.1016/S2213-8587(20)30026-7,32135136,https://pubmed.ncbi.nlm.nih.gov/32135136/,Linked at the registration,Yes,2018,nordic
+3165,NCT01729156,Yes,10.1111/dom.13244,29405635,https://doi.org/10.1111/dom.13244,Linked at the registration,Yes,2016,nordic
+3166,NCT01790737,Yes,10.1038/bmt.2015.236,26437056,https://doi.org/10.1038/bmt.2015.236,Systematic Google search,No,2018,nordic
+3167,NCT02573922,Yes,10.1007/s12325-016-0456-9,27921252,doi.org/10.1007/s12325-016-0456-9,Linked at the registration,No,2019,nordic
+3168,NCT01978418,No,NA,NA,NA,NA,No,2019,nordic
+3169,NCT01698138,No,NA,NA,NA,NA,Yes,2019,nordic
+3170,NCT01797718,Yes,10.1016/S2352-4642(18)30377-8,30612946,https://doi.org/10.1016/S2352-4642(18)30377-8,Linked at the registration,Yes,2018,nordic
+3171,NCT01849926,Yes,10.1371/journal.pmed.1002569,29763434,https://doi.org/10.1371/journal.pmed.1002569,Linked at the registration,Yes,2016,nordic
+3172,NCT01752543,Yes,10.1016/j.ahj.2018.05.015,30057012,https://doi.org/10.1016/j.ahj.2018.05.015,Systematic Google search,Yes,2016,nordic
+3173,NCT01785108,Yes,10.2144/fsoa-2020-0078,32802401,https://doi.org/10.2144/fsoa-2020-0078,Linked at the registration,Yes,2016,nordic
+3174,NCT02624440,No,NA,NA,NA,NA,No,2017,nordic
+3175,NCT02255604,Yes,10.1186/s13601-016-0107-x,27231527,https://doi.org/10.1186/s13601-016-0107-x,Systematic Google search,Yes,2016,nordic
+3176,NCT02311231,Yes,10.1056/NEJMoa1706443,28844201,https://www.nejm.org/doi/full/10.1056/NEJMoa1706443,Systematic Google search,Yes,2017,nordic
+3177,NCT02756598,Yes,10.1053/j.jvca.2017.08.018,29128486,https://doi.org/10.1053/j.jvca.2017.08.018,Systematic Google search,No,2019,nordic
+3178,NCT02764619,No,NA,NA,NA,NA,Yes,2017,nordic
+3179,NCT02752633,Yes,10.1016/j.ejim.2017.10.007,29241594,https://www.sciencedirect.com/science/article/pii/S0953620517304156?via%3Dihub,Linked at the registration,Yes,2017,nordic
+3180,NCT02333591,Yes,10.1016/j.ijcha.2019.01.004,30740510,https://doi.org/10.1016/j.ijcha.2019.01.004,Systematic Google search,No,2018,nordic
+3181,NCT02132624,Yes,10.1182/blood.V126.23.1534.1534,NA,https://www.sciencedirect.com/science/article/pii/S0006497118485138,Systematic Google search,Yes,2017,nordic
+3182,NCT02064491,No,NA,NA,NA,NA,Yes,2016,nordic
+3183,NCT01937182,Yes,10.1161/strokeaha.117.020067,30355209,https://doi.org/10.1161/strokeaha.117.020067,Linked at the registration,Yes,2016,nordic
+3184,NCT02248012,No,NA,NA,NA,NA,Yes,2019,nordic
+3185,NCT02549742,Yes,10.1002/hed.25454,30552847,https://doi.org/10.1002/hed.25454,Systematic Google search,No,2019,nordic
+3186,NCT02070653,Yes,10.1093/cvr/cvz133,31135888,https://doi.org/10.1093/cvr/cvz133,Linked at the registration,Yes,2017,nordic
+3187,NCT02232399,Yes,10.1097/PCC.0000000000002017,31274775,https://journals.lww.com/pccmjournal/Abstract/2019/10000/The_Effect_of_Levosimendan_Versus_Milrinone_on_the.6.aspx#,Systematic Google search,No,2017,nordic
+3188,NCT02111161,Yes,10.1007/s00134-017-4786-0,28421246,https://doi.org/10.1007/s00134-017-4786-0,Linked at the registration,Yes,2016,nordic
+3189,NCT02171910,Yes,10.1007/s00464-019-07344-2,31993819,https://doi.org/10.1007/s00464-019-07344-2,Systematic Google search,Yes,2017,nordic
+3190,NCT02442791,Yes,10.1161/circulationaha.116.024088,27838646,https://doi.org/10.1161/circulationaha.116.024088,Linked at the registration,Yes,2016,nordic
+3191,NCT02728921,Yes,10.1186/s13063-016-1714-5,27923389,https://doi.org/10.1186/s13063-016-1714-5,Linked at the registration,No,2016,nordic
+3192,NCT02323412,Yes,10.1136/bmj.l5654,31619437,https://www.bmj.com/content/367/bmj.l5654,Linked at the registration,Yes,2019,nordic
+3193,NCT02139696,Yes,10.2967/jnumed.116.183020,28336784,https://doi.org/10.2967/jnumed.116.183020,Systematic Google search,Yes,2016,nordic
+3194,NCT02437461,Yes,10.1080/03009742.2019.1571222,30843453,https://doi.org/10.1080/03009742.2019.1571222,Systematic Google search,No,2017,nordic
+3195,NCT02767752,Yes,10.3390/pharmaceutics14030509,35335885,https://doi.org/10.3390/pharmaceutics14030509,Systematic Google search,Yes,2018,nordic
+3196,NCT02464033,Yes,10.1002/dmrr.3440,33486892,https://onlinelibrary.wiley.com/doi/10.1002/dmrr.3440,Systematic Google search,Yes,2019,nordic
+3197,NCT02352974,Yes,10.1056/nejmc1616343,28199812,https://doi.org/10.1056/nejmc1616343,Systematic Google search,Yes,2019,nordic
+3198,NCT02829177,Yes,10.1111/dme.13577,29315768,https://doi.org/10.1111/dme.13577,Systematic Google search,Yes,2016,nordic
+3199,NCT02192450,Yes,10.1089/dia.2021.0567,35467938,https://doi.org/10.1089/dia.2021.0567,Linked at the registration,Yes,2019,nordic
+3200,NCT02282150,Yes,10.1007/s12020-020-02507-x,33063273,https://doi.org/10.1007/s12020-020-02507-x,Systematic Google search,Yes,2019,nordic
+3201,NCT02558088,Yes,10.1002/dta.2978,33210444,https://doi.org/10.1002/dta.2978,Systematic Google search,No,2016,nordic
+3202,NCT02351232,Yes,10.1111/dom.13911,31696598,https://doi.org/10.1111/dom.13911,Linked at the registration,No,2016,nordic
+3203,NCT02204852,Yes,10.118/s13054-019-2573-8,31488213,https://doi.org/10.1186%2Fs13054-019-2573-8,Linked at the registration,Yes,2017,nordic
+3204,NCT02317601,Yes,10.1111/anae.14406,30151823,https://doi.org/10.1111/anae.14406,Systematic Google search,No,2016,nordic
+3205,NCT02256189,Yes,10.1111/dom.13316,29645341,https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.13316,Linked at the registration,Yes,2018,nordic
+3206,NCT02253966,Yes,10.1016/j.jpain.2017.07.010,28842370,https://doi.org/10.1016/j.jpain.2017.07.010,Systematic Google search,No,2016,nordic
+3207,NCT02685618,Yes,10.1016/j.ahj.2019.10.002,31710844,https://doi.org/10.1016/j.ahj.2019.10.002,Linked at the registration,Yes,2017,nordic
+3209,NCT02329405,Yes,10.1111/bcpt.13586,33851518,doi.org/10.1111/bcpt.13586,Systematic Google search,Yes,2018,nordic
+3210,NCT02313220,Yes,10.1111/dom.12779,27550386,https://doi.org/10.1111/dom.12779,Systematic Google search,Yes,2016,nordic
+3211,NCT03044808,Yes,NA,31908254,https://pubmed.ncbi.nlm.nih.gov/31908254/,Systematic Google search,Yes,2018,nordic
+3212,NCT02282540,Yes,10.1177/2058460119900435,32030198,https://doi.org/10.1177/2058460119900435,Linked at the registration,Yes,2017,nordic
+3213,NCT02432768,Yes,10.1002/acn3.50863,31520525,https://doi.org/10.1002/acn3.50863,Systematic Google search,No,2018,nordic
+3214,NCT02513238,Yes,10.1016/j.ijrobp.2018.02.034,29678523,https://www.redjournal.org/article/S0360-3016(18)30333-X/fulltext,Systematic Google search,Yes,2017,nordic
+3215,NCT02545738,Yes,10.1111/dom.12808,27753201,https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.12808,Systematic Google search,No,2016,nordic
+3216,NCT02397213,Yes,10.1053/j.jvca.2021.11.026,34969566,https://doi.org/10.1053/j.jvca.2021.11.026,Systematic Google search,Yes,2016,nordic
+3217,NCT02433730,Yes,10.1530/EJE-19-0979,32213659,https://eje.bioscientifica.com/view/journals/eje/182/6/EJE-19-0979.xml,Linked at the registration,Yes,2019,nordic
+3218,NCT02531451,Yes,10.1111/apha.12948,28834248,https://doi.org/10.1111/apha.12948,Systematic Google search,Yes,2016,nordic
+3219,NCT02526199,Yes,10.1111/aas.13054,29266180,https://doi.org/10.1111/aas.13054,Systematic Google search,No,2016,nordic
+3220,NCT02443935,Yes,10.1093/cid/cix201,28329286,https://doi.org/10.1093/cid/cix201,Linked at the registration,Yes,2017,nordic
+3222,NCT02637167,Yes,10.1016/j.ebiom.2021.103511,34329947,https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(21)00304-2/fulltext,Systematic Google search,No,2019,nordic
+3223,NCT02546050,Yes,10.1007/s00125-019-4848-7,30904939,https://doi.org/10.1007/s00125-019-4848-7,Systematic Google search,No,2016,nordic
+3224,NCT02604446,Yes,10.1097/j.pain.0000000000002026,32773594,https://doi.org/10.1097/j.pain.0000000000002026,Linked at the registration,Yes,2019,nordic
+3225,NCT02467621,Yes,10.1056/NEJMoa1714919,30354950,https://doi.org/10.1056/nejmoa1714919,Linked at the registration,Yes,2018,nordic
+3226,NCT02914691,No,NA,NA,NA,NA,Yes,2017,nordic
+3227,NCT02655770,Yes,10.1111/dom.14480,34189832,https://doi.org/10.1111/dom.14480,Systematic Google search,Yes,2019,nordic
+3228,NCT02660190,Yes,10.1016/j.urology.2019.12.002,31843623,https://doi.org/10.1016/j.urology.2019.12.002,Systematic Google search,Yes,2019,nordic
+3229,NCT02527993,Yes,10.1111/dom.13796,31144430,https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.13796,Linked at the registration,Yes,2017,nordic
+3230,NCT02405104,Yes,10.1097/AJP.0000000000000805,31977370,https://journals.lww.com/clinicalpain/Fulltext/2020/05000/Investigating_the_Effect_of_Perioperative.4.aspx,Linked at the registration,Yes,2017,nordic
+3231,NCT02473809,Yes,10.1016/j.bone.2019.115197,31870634,https://www.sciencedirect.com/science/article/abs/pii/S8756328219304934?via%3Dihub,Systematic Google search,Yes,2017,nordic
+3232,NCT02475070,Yes,10.1111/dom.13276,29498469,https://doi.org/10.1111/dom.13276,Linked at the registration,Yes,2018,nordic
+3233,NCT02713087,Yes,10.1136/bmjopen-2017-018560,29151054,https://bmjopen.bmj.com/content/7/11/e018560,Linked at the registration,Yes,2017,nordic
+3234,NCT02991209,Yes,10.1186/s12885-017-3456-5,28673265,https://doi.org/10.1186/s12885-017-3456-5,Systematic Google search,Yes,2019,nordic
+3235,NCT02695810,Yes,10.1007/s00125-020-05306-1,33064182,https://doi.org/10.1007/s00125-020-05306-1,Systematic Google search,Yes,2019,nordic
+3236,NCT02794402,Yes,10.1111/ijpo.12624,32062862,https://onlinelibrary.wiley.com/doi/10.1111/ijpo.12624,Systematic Google search,No,2016,nordic
+3237,NCT02458157,Yes,10.1111/aas.13124,29664109,doi.org/10.1111/aas.13124,Linked at the registration,Yes,2017,nordic
+3238,NCT02594878,Yes,10.1080/03009742.2020.1724324,32484386,https://doi.org/10.1080/03009742.2020.1724324,Systematic Google search,Yes,2019,nordic
+3239,NCT02451293,Yes,10.1111/jpi.12600,31355944,https://doi.org/10.1111/jpi.12600,Linked at the registration,Yes,2017,nordic
+3240,NCT02602600,Yes,10.1016/j.ijcard.2018.12.005,30773266,https://pubmed.ncbi.nlm.nih.gov/30773266/,Linked at the registration,Yes,2017,nordic
+3241,NCT02571361,Yes,10.1001/jama.2018.22039,30747964,https://doi.org/10.1001/jama.2018.22039,Linked at the registration,Yes,2018,nordic
+3242,NCT03006185,Yes,10.1111/bjd.17096,30117140,https://doi.org/10.1111/bjd.17096,Systematic Google search,Yes,2018,nordic
+3243,NCT02576223,Yes,10.1111/aas.14064,35332521,https://onlinelibrary.wiley.com/doi/10.1111/aas.14064,Systematic Google search,Yes,2018,nordic
+3244,NCT02809963,Yes,10.1016/j.diabet.2018.11.003,30472196,https://www-sciencedirect-com.mime.uit.no/science/article/pii/S1262363618302180?via%3Dihub,Other,Yes,2017,nordic
+3245,NCT02622022,Yes,10.1186/s12931-020-01452-7,32703194,https://doi.org/10.1186/s12931-020-01452-7,Linked at the registration,Yes,2019,nordic
+3246,NCT02810132,Yes,10.1002/ejhf.1656,31863557,https://doi.org/10.1002/ejhf.1656,Cross-reference,Yes,2018,nordic
+3247,NCT02743234,Yes,10.1053/j.gastro.2018.12.019,30610862,https://doi.org/10.1053/j.gastro.2018.12.019,Linked at the registration,Yes,2019,nordic
+3248,NCT02774382,Yes,10.1111/apt.16309,33694229,https://onlinelibrary.wiley.com/doi/abs/10.1111/apt.16309,Linked at the registration,Yes,2019,nordic
+3249,NCT02556437,Yes,10.1111/ene.13978,31021036,https://doi.org/10.1111/ene.13978,Systematic Google search,Yes,2018,nordic
+3250,NCT02544269,No,NA,NA,NA,NA,Yes,2017,nordic
+3251,NCT02903251,Yes,10.1016/j.drugalcdep.2019.01.003,30784955,https://doi.org/10.1016/j.drugalcdep.2019.01.003,Linked at the registration,Yes,2017,nordic
+3252,NCT02778711,Yes,10.1111/cod.12988,29722024,https://doi.org/10.1111/cod.12988,Linked at the registration,No,2017,nordic
+3253,NCT02681640,No,NA,NA,NA,NA,Yes,2017,nordic
+3254,NCT02724098,Yes,10.1007/s00228-018-2461-1,29666901,https://doi.org/10.1007/s00228-018-2461-1,Linked at the registration,Yes,2017,nordic
+3255,NCT02761174,Yes,10.1002/lsm.22953,29911352,https://doi.org/10.1002/lsm.22953,Systematic Google search,Yes,2017,nordic
+3256,NCT02711449,Yes,10.1213/ANE.0000000000002693,29200067,https://doi.org/10.1213/ANE.0000000000002693,Linked at the registration,Yes,2016,nordic
+3257,NCT02594241,Yes,10.1016/j.surg.2019.12.007,32061400,https://doi.org/10.1016/j.surg.2019.12.007,Linked at the registration,Yes,2018,nordic
+3258,NCT02905864,Yes,10.1093/ajcn/nqaa328,33471039,https://academic.oup.com/ajcn/article/113/2/314/6104794?login=false,Systematic Google search,No,2019,nordic
+3259,NCT02914652,Yes,10.1016/j.ijcard.2018.06.097,30454724,https://doi.org/10.1016/j.ijcard.2018.06.097,Linked at the registration,Yes,2017,nordic
+3260,NCT02698501,Yes,10.1183/13993003.01296-2021,34049943,https://doi.org/10.1183/13993003.01296-2021,Linked at the registration,Yes,2019,nordic
+3261,NCT02765204,Yes,10.1210/jc.2018-00969,30137410,https://doi.org/10.1210/jc.2018-00969,Linked at the registration,Yes,2016,nordic
+3262,NCT02946684,Yes,10.1093/humrep/deab249,34792133,https://pubmed.ncbi.nlm.nih.gov/34792133/,Systematic Google search,No,2018,nordic
+3263,NCT02939898,Yes,10.1093/hropen/hoac011,35356508,https://doi.org/10.1093/hropen/hoac011,Systematic Google search,No,2018,nordic
+3264,NCT03046758,Yes,10.1038/s41598-019-43151-4,31040341,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6491470/,Linked at the registration,Yes,2017,nordic
+3265,NCT02885350,Yes,10.1111/aas.13450,31286476,https://doi.org/10.1111/aas.13450,Linked at the registration,Yes,2017,nordic
+3266,NCT02697955,Yes,10.1097/AAP.0000000000000764,29667940,https://rapm.bmj.com/content/43/5/474.long,Systematic Google search,Yes,2017,nordic
+3267,NCT03346200,Yes,10.1200/JCO.20.02598,33734864,https://ascopubs.org/doi/10.1200/JCO.20.02598?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed,Linked at the registration,Yes,2019,nordic
+3268,NCT02801032,Yes,10.1093/braincomms/fcaa020,33033800,https://doi.org/10.1093/braincomms/fcaa020,Systematic Google search,Yes,2017,nordic
+3269,NCT02805608,Yes,10.2967/jnumed.116.178970,27609788,https://jnm.snmjournals.org/content/58/3/379,Systematic Google search,Yes,2017,nordic
+3270,NCT02838589,Yes,10.3389/fnagi.2022.899389,NA,https://doi.org/10.3389/fnagi.2022.899389,Systematic Google search,Yes,2017,nordic
+3271,NCT03017352,Yes,10.1016/S2213-8587(20)30030-9,32135138,https://doi.org/10.1016/S2213-8587(20)30030-9,Linked at the registration,Yes,2019,nordic
+3272,NCT03027557,Yes,10.1016/S2213-8587(20)30063-2,32333877,https://www.thelancet.com/journals/landia/article/PIIS2213-8587(20)30063-2/fulltext,Systematic Google search,Yes,2019,nordic
+3273,NCT02797340,No,NA,NA,NA,NA,No,2018,nordic
+3274,NCT03449654,Yes,10.1161/CIRCIMAGING.120.012174,34187185,https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.120.012174,Systematic Google search,Yes,2019,nordic
+3275,NCT02882737,Yes,10.1007/s00125-018-4807-8,30643924,https://link.springer.com/article/10.1007/s00125-018-4807-8,Systematic Google search,Yes,2017,nordic
+3276,NCT02858713,Yes,10.1111/bjd.16667,29654699,https://doi.org/10.1111/bjd.16667,Linked at the registration,Yes,2017,nordic
+3277,NCT03059537,Yes,10.14309/ajg.0000000000000772,32740083,https://journals.lww.com/ajg/Fulltext/2020/12000/Biochemical_Diagnosis_of_Bile_Acid_Diarrhea_.28.aspx,Linked at the registration,Yes,2017,nordic
+3278,NCT03115307,Yes,10.1080/09513590.2022.2054984,35323085,https://doi-org.ezproxy.its.uu.se/10.1080/09513590.2022.2054984,Systematic Google search,No,2019,nordic
+3279,NCT03209271,Yes,NA,30482135,https://pubmed.ncbi.nlm.nih.gov/30482135/,Linked at the registration,Yes,2017,nordic
+3280,NCT02957903,Yes,10.1111/aas.13091,29468642,https://onlinelibrary.wiley.com/doi/10.1111/aas.13091,Linked at the registration,Yes,2016,nordic
+3281,NCT02955732,Yes,10.1213/ane.0000000000004264,31206433,https://doi.org/10.1213/ane.0000000000004264,Linked at the registration,Yes,2018,nordic
+3282,NCT03576287,Yes,10.2340/00015555-3461,NA,https://www.medicaljournals.se/acta/content/html/10.2340/00015555-3461,Systematic Google search,Yes,2019,nordic
+3283,NCT03034005,No,NA,NA,NA,NA,Yes,2019,nordic
+3284,NCT03182855,No,NA,NA,NA,NA,No,2019,nordic
+3285,NCT03168555,Yes,10.1002/ygh2.489,NA,https://onlinelibrary.wiley.com/doi/full/10.1002/ygh2.489,Systematic Google search,Yes,2019,nordic
+3286,NCT03209830,Yes,10.3171/2021.7.JNS211305,34715650,https://doi.org/10.3171/2021.7.jns211305,Linked at the registration,Yes,2019,nordic
+3287,NCT03520062,Yes,10.1111/dom.14106,32495988,https://dom-pubs.onlinelibrary.wiley.com/doi/epdf/10.1111/dom.14106,Systematic Google search,Yes,2019,nordic
+3288,NCT03138668,Yes,10.1186/s12871-019-0833-4,31455249,https://doi.org/10.1186%2Fs12871-019-0833-4,Systematic Google search,Yes,2017,nordic
+3289,NCT03185182,No,NA,NA,NA,NA,Yes,2018,nordic
+3290,NCT03064165,Yes,10.1136/rapm-2018-100104,30679337,https://rapm.bmj.com/content/44/4/466,Systematic Google search,Yes,2018,nordic
+3291,NCT03314792,Yes,10.1097/EJA.0000000000001425,33428347,https://doi.org/10.1097/EJA.0000000000001425,Linked at the registration,Yes,2019,nordic
+3292,NCT03198403,Yes,10.1111/aas.13145,29797704,https://onlinelibrary.wiley.com/doi/full/10.1111/aas.13145,Systematic Google search,Yes,2018,nordic
+3293,NCT03697590,Yes,10.1111/jdv.15744,31197894,https://doi.org/10.1111/jdv.15744,Systematic Google search,Yes,2017,nordic
+3294,NCT03130049,No,NA,NA,NA,NA,Yes,2017,nordic
+3295,NCT03372304,No,NA,NA,NA,NA,Yes,2019,nordic
+3296,NCT03383328,Yes,10.1097/j.jcrs.0000000000000455,33086290,https://doi.org/10.1097/j.jcrs.0000000000000455,Linked at the registration,Yes,2019,nordic
+3297,NCT03569345,Yes,10.1111/jdv.15907,31442334,https://doi.org/10.1111/jdv.15907,Systematic Google search,Yes,2018,nordic
+3298,NCT03573115,Yes,10.1111/jdv.17140,33508886,https://doi.org/10.1111/jdv.17140,Systematic Google search,Yes,2019,nordic
+3299,NCT03374358,Yes,10.1089/apc.2021.0106,34524919,https://doi.org/10.1089/apc.2021.0106,Systematic Google search,Yes,2019,nordic
+3300,NCT03491644,Yes,10.1111/aas.13362,30908592,https://doi.org/10.1111/aas.13362,Linked at the registration,Yes,2018,nordic
+3301,NCT03650998,Yes,10.1136/rapm-2020-101931,33082286,https://doi.org/10.1136/rapm-2020-101931,Systematic Google search,Yes,2019,nordic
+3302,NCT03435900,Yes,10.3389/fsurg.2020.00025,32432123,https://doi.org/10.3389%2Ffsurg.2020.00025,Systematic Google search,Yes,2018,nordic
+3303,NCT03439787,No,NA,NA,NA,NA,Yes,2018,nordic
+3304,NCT03573076,Yes,10.1002/lsm.23194,31788828,https://doi.org/10.1002/lsm.23194,Linked at the registration,Yes,2018,nordic
+3305,NCT03514576,Yes,10.1007/s11695-019-04248-x,31709494,https://doi.org/10.1007/s11695-019-04248-x,Linked at the registration,Yes,2018,nordic
+5139,NCT01446731,Yes,10.1016/j.jcyt.2017.01.007,28215654,https://doi.org/10.1016/j.jcyt.2017.01.007,Systematic Google search,No,2016,nordic

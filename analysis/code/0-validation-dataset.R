@@ -65,5 +65,7 @@ mean(df$completion_year)
 median(df$completion_year)
 
 set.seed(42)
+smaller_sample_all <- sample_n(df, size=100)
+set.seed(42)
 smaller_sample <- sample_n(df, size=100) %>% select(nct_id)
 write.csv(smaller_sample, file = "./out/validation_dataset_smaller.csv", row.names = F)

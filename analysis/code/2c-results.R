@@ -18,6 +18,8 @@ my_theme <- theme(
   axis.title.y = element_text(size = 24),
   axis.text.x = element_text(size = 20),
   axis.text.y = element_text(size = 20),
+  legend.text = element_text(size=20), 
+  legend.title = element_text(size=20),
   panel.background = element_rect(fill = "white"),     # Panel background to white
   plot.background = element_rect(fill = "white"),      # Plot background to white
   panel.grid.major = element_line(color = "gray90"),   # Major grid lines to light gray
@@ -30,6 +32,7 @@ my_theme_small <- theme(
   axis.title.y = element_text(size = 20),
   axis.text.x = element_text(size = 20),
   axis.text.y = element_text(size = 20),
+  legend.text = element_text(size=20), 
   panel.background = element_rect(fill = "white"),     # Panel background to white
   plot.background = element_rect(fill = "white"),      # Plot background to white
   panel.grid.major = element_line(color = "gray90"),   # Major grid lines to light gray
@@ -43,10 +46,17 @@ my_theme_small <- theme(
 n_trials <- tool_results %>% nrow()
 
 merged_trials <- left_join(x = tool_results, y=df, by = join_by(nct_id == `NCT Number`)) %>% 
-  mutate(tool_results = ifelse(tool_results == "true", T, ifelse(tool_results == 'false', F, NA))) 
+  mutate(tool_results = ifelse(tool_results == "true", T, ifelse(tool_results == 'false', F, NA))) %>% 
+  mutate(funder_type_grouped = case_match(`Funder Type`,
+                                          c("FED") ~ "Federal",
+                                          c("INDIV", "OTHER", "NETWORK", "UNKNOWN") ~ "All others (individuals, universities, organizations)",
+                                          "INDUSTRY" ~ "Industry",
+                                          c("NIH", "OTHER_GOV") ~ "NIH/Other overnmental",
+  )) 
 
 merged_trials <- merged_trials %>% mutate(tool_or_summary = tool_results | (`Study Results` == "YES"))
-  
+
+
 results_table <- merged_trials %>% 
   group_by(tool_results) %>% 
   summarise(summary = paste0(n(),"/", n_trials, " (", (n() * 100 /n_trials), "%)"))
@@ -208,6 +218,34 @@ combined_enrolment_plots <- plot_enrolment_deciles + plot_enrolment + plot_layou
 ggsave("./out/figures/logistic_regression_enrolment_combined.pdf", plot =combined_enrolment_plots, device = "pdf")
 print(combined_enrolment_plots)
 
+############## SWEDISH #################
+
+
+plot_enrolment <- ggplot(data = merged_trials_enrolment_non_na, aes(x = Enrollment, y = tool_results)) +
+  geom_point(alpha = 0.5) +  
+  geom_line(data = Predicted_data_enrolment, aes(x = Enrollment, y = tool_results), color = "steelblue", size = 1) +
+  scale_x_log10(
+    breaks = c(1, 100, 10000),
+    labels = c("1", "100", "10000")
+  ) +  
+  labs(x = "Deltagarantal (n, log-skala)",
+       y = "Predicerad sannolikhet\natt finna resultat") +
+  my_theme
+
+plot_enrolment_deciles <- ggplot(proportions, aes(x = reorder(label, decile), y = proportion)) +
+  geom_bar(stat = "identity", fill="steelblue") +
+  ylim(c(0,1)) +
+  labs(
+    x = "Deltagarantal (n)",
+    y = "Andel med\nfunna resultat"
+  ) +
+  my_theme + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+combined_enrolment_plots <- plot_enrolment_deciles + plot_enrolment + plot_layout(ncol = 2)
+
+ggsave("./out/figures/logistic_regression_enrolment_combined_swe.pdf", plot =combined_enrolment_plots, device = "pdf")
+
 # //////////// LOGISTIC REGRESSION COMPLETION YEAR /////////////
 
 # Logistic regression with tool_results as dependent, completion_year as explanatory
@@ -248,12 +286,29 @@ underlying_data_plot_year <- ggplot(summary_data, aes(x = completion_year, y = p
   my_theme +
   labs(
     x = "Completion Year",
-    y = "Proportion with\nresult publications",
+    y = "Proportion with\nresult detection",
     size = "Number of Trials"
   ) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 print(underlying_data_plot_year)
 ggsave("./out/figures/underlying_data_plot_year.pdf", plot = underlying_data_plot_year, device = "pdf")
+
+########### SWEDISH ################
+
+# Plot the data
+underlying_data_plot_year <- ggplot(summary_data, aes(x = completion_year, y = proportion)) +
+  geom_line(data = Predicted_data_year, aes(x = completion_year, y = tool_results), color = "steelblue", size = 1) +
+  geom_point(aes(size = trial_count), color = "steelblue", alpha = 0.7) +
+  my_theme +
+  labs(
+    x = "Avslutningsår",
+    y = "Andel med\nfunna resultat",
+    size = "Antal prövningar"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+print(underlying_data_plot_year)
+ggsave("./out/figures/underlying_data_plot_year_swe.pdf", plot = underlying_data_plot_year, device = "pdf")
+
 
 
 ############ CHI-SQ STUDY HELPER FUNCTION ############
@@ -320,6 +375,20 @@ standardized_residuals <- chi_test_result$stdres
 
 significant_table_sex <- add_stars_and_percentages(contingency_table, standardized_residuals)
 print(significant_table_sex)
+
+############ CHI-SQ STUDY INDUSTRY ############
+
+df_funder_type <- merged_trials %>% filter(!is.na(funder_type_grouped) & funder_type_grouped != '') 
+contingency_table <- table(df_funder_type$funder_type_grouped, df_funder_type$tool_results)
+
+chi_test_result <- chisq.test(contingency_table)
+print(contingency_table)
+print(chi_test_result)
+standardized_residuals <- chi_test_result$stdres
+
+significant_table_funder_type <- add_stars_and_percentages(contingency_table, standardized_residuals)
+print(significant_table_funder_type)
+
 
 ##########################################
 

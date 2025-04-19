@@ -1,0 +1,22 @@
+{
+  "Predictors and Risk Score for Immune Checkpoint-Inhibitor-Associated Myocarditis Severity": {
+    "hasResults": false,
+    "reason": "This study focuses on immune checkpoint inhibitors and myocarditis, but it does not directly relate to the specific drugs and reports investigated in the CardiTOX study."
+  },
+  "Extending the dosing intervals of nivolumab: model-based simulations in unselected cancer patients": {
+    "hasResults": false,
+    "reason": "This research discusses dosage optimization for nivolumab, which is unrelated to the observations of drug-induced myocarditis in the CardiTOX registration."
+  },
+  "Treatment of COVID-19-associated ARDS with umbilical cord-derived mesenchymal stromal cells in the STROMA-CoV-2 multicenter randomized double-blind trial: long-term safety, respiratory function, and quality of life": {
+    "hasResults": false,
+    "reason": "The focus of this trial is unrelated to myocarditis or the adverse effects of drugs mentioned in the CardiTOX study."
+  },
+  "Immune Checkpoint Inhibitor Use During Pregnancy and Outcomes in Pregnant Individuals and Newborns": {
+    "hasResults": false,
+    "reason": "This study investigates maternal outcomes of ICI usage during pregnancy, which is not relevant to drug-induced myocarditis explored in the CardiTOX registration."
+  },
+  "Clinical spectrum and evolution of immune-checkpoint inhibitors toxicities over a decade-a worldwide perspective": {
+    "hasResults": false,
+    "reason": "While this paper discusses various toxicities related to immune checkpoint inhibitors, including myocarditis, it does not specifically examine the drug-induced myocarditis linked to the CardiTOX study."
+  }
+}

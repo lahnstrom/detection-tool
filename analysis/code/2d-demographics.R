@@ -11,9 +11,25 @@ load('./data/finalSample.rda')
 # Generating the demographics table
 total_studies <- nrow(df)
 
+### AVERAGE ENROLMENT AND COMPLETION YEAR ####
+
 filtered <- df %>% filter(!is.na(Enrollment))
 mean(filtered$Enrollment)
 median(filtered$Enrollment)
+sd(filtered$Enrollment)
+IQR(filtered$Enrollment)
+quantile(filtered$Enrollment, 1/4)
+quantile(filtered$Enrollment, 3/4)
+
+geometric_mean <- exp(mean(log(filtered$Enrollment[filtered$Enrollment>0])))
+geometric_sd <- exp(sd(log(filtered$Enrollment[filtered$Enrollment>0])))
+
+filtered <- df %>% filter(!is.na(completion_year))
+median(filtered$completion_year)
+IQR(filtered$completion_year)
+quantile(filtered$completion_year, 1/1000)
+quantile(filtered$completion_year, 3/4)
+min(filtered$completion_year)
 
 status_summary <- df %>%
   count(`Study Status`) %>%
@@ -47,16 +63,20 @@ sex_summary <- df %>%
   select(Sex, summary)
 
 funder_type_summary <- df %>% 
-  mutate(is_industry = `Funder Type`=="INDUSTRY") %>% 
   count(`Funder Type`) %>% 
   mutate(summary = paste0(n, "/", total_studies, " (", round(n / total_studies * 100, 1), "%)")) %>%
   select(`Funder Type`, summary)
 
-is_industry_summary <- df %>% 
-  mutate(is_industry = `Funder Type`=="INDUSTRY") %>% 
-  count(is_industry) %>% 
+funder_type_summary <- df %>% 
+  mutate(funder_type_grouped = case_match(`Funder Type`,
+    c("FED") ~ "Federal",
+    c("INDIV", "OTHER", "NETWORK", "UNKNOWN") ~ "All others (individuals, universities, organizations)",
+    "INDUSTRY" ~ "Industry",
+    c("NIH", "OTHER_GOV") ~ "NIH/Other overnmental",
+  )) %>% 
+  count(funder_type_grouped) %>% 
   mutate(summary = paste0(n, "/", total_studies, " (", round(n / total_studies * 100, 1), "%)")) %>%
-  select(is_industry, summary)
+  select(funder_type_grouped, summary)
 
 
 summary_table <- list(
@@ -67,11 +87,9 @@ summary_table <- list(
   Enrollment = enrollment_summary,
   Gender = sex_summary,
   FunderType = funder_type_summary, 
-  IndustryFunded = is_industry_summary,
   `Summary Results` = results_summary
 )
 print(summary_table)
-
 
 
 # Year and enrolment histograms
@@ -94,22 +112,47 @@ year_plot <- ggplot(year_plot_data, aes(x = completion_year, y = count)) +
   my_theme +
   labs(
      x = "Completion Year",
-     y = "Number of trials")
-
+     y = "Number of trials") +
+  annotate("text", x = -Inf, y = Inf, label = expression(bold("b.")), hjust = -0.5, vjust = 1, size = 5)
+  
 print(year_plot)
 
 enrolment_plot <- ggplot(df, aes(x = Enrollment,)) +
   scale_x_continuous(trans="log10", labels = comma) +
   geom_histogram(bins = 30, fill = "steelblue", color = "white", boundary = 0) +
+  my_theme  +
   labs(
        x = "Enrolment (n, log scale)",
        y = "Number of trials") + 
+  annotate("text", x = -Inf, y = Inf, label = expression(bold("a.")), hjust = -0.5, vjust = 1, size = 5)
+
+print(enrolment_plot)
+
+demo_plot_combined <- enrolment_plot + year_plot + plot_layout(ncol = 2)
+
+print(demo_plot_combined)
+
+ggsave("./out/figures/demo_plot_combined.pdf", plot = demo_plot_combined, device = "pdf", width = 6, height = 4)
+
+
+year_plot <- ggplot(year_plot_data, aes(x = completion_year, y = count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  my_theme +
+  labs(
+    x = "Avslutningsår",
+    y = "Antal prövningar")
+
+enrolment_plot <- ggplot(df, aes(x = Enrollment,)) +
+  scale_x_continuous(trans="log10", labels = comma) +
+  geom_histogram(bins = 30, fill = "steelblue", color = "white", boundary = 0) +
+  labs(
+    x = "Deltagarantal (n, log-skala)",
+    y = "Antal prövningar") + 
   my_theme 
 
 demo_plot_combined <- enrolment_plot + year_plot + plot_layout(ncol = 2)
 
 print(demo_plot_combined)
 
-
-ggsave("./out/figures/demo_plot_combined.pdf", plot = demo_plot_combined, device = "pdf")
+ggsave("./out/figures/demo_plot_combined_swe.pdf", plot = demo_plot_combined, device = "pdf")
 

@@ -1,0 +1,379 @@
+{
+  "search_metadata": {
+    "id": "6733cedde281eeeef11a34c9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/044b47596b3bec5d/6733cedde281eeeef11a34c9.json",
+    "created_at": "2024-11-12 21:55:41 UTC",
+    "processed_at": "2024-11-12 21:55:41 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=NCT01106365&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/044b47596b3bec5d/6733cedde281eeeef11a34c9.html",
+    "total_time_taken": 2.49
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "NCT01106365",
+    "hl": "en"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 8,
+    "time_taken_displayed": 0.12,
+    "query_displayed": "NCT01106365"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Safety and preliminary efficacy of deep transcranial magnetic stimulation in MS-related fatigue",
+      "result_id": "Dp6ozpwO2-wJ",
+      "link": "https://www.neurology.org/doi/abs/10.1212/nxi.0000000000000423",
+      "snippet": "Objective: To conduct a randomized, sham-controlled phase I/IIa study to evaluate the safety and preliminary efficacy of deep brain H-coil repetitive transcranial magnetic stimulation (…",
+      "publication_info": {
+        "summary": "G Gaede, M Tiede, I Lorenz, AU Brandt… - Neurology …, 2017 - AAN Enterprises",
+        "authors": [
+          {
+            "name": "AU Brandt",
+            "link": "https://scholar.google.com/citations?user=Kr5kiMkAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Kr5kiMkAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "Kr5kiMkAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "neurology.org",
+          "file_format": "PDF",
+          "link": "https://www.neurology.org/doi/pdfdirect/10.1212/NXI.0000000000000423"
+        },
+        {
+          "title": "Full View",
+          "link": "https://scholar.google.com/scholar?output=instlink&q=info:Dp6ozpwO2-wJ:scholar.google.com/&hl=en&as_sdt=0,33&scillfp=13836608380911883042&oi=lle"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Dp6ozpwO2-wJ",
+        "cited_by": {
+          "total": 58,
+          "link": "https://scholar.google.com/scholar?cites=17067251279495470606&as_sdt=5,33&sciodt=0,33&hl=en",
+          "cites_id": "17067251279495470606",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=17067251279495470606&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Dp6ozpwO2-wJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3ADp6ozpwO2-wJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 19,
+          "link": "https://scholar.google.com/scholar?cluster=17067251279495470606&hl=en&as_sdt=0,33",
+          "cluster_id": "17067251279495470606",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=17067251279495470606&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "title": "Deep Transcranial Magnet Stimulation Can Improve Depression And Fatigue In Multiple Sclerosis-A Clinical Phase I/IIa Study (I7-2.004)",
+      "result_id": "haZVtajqEKMJ",
+      "link": "https://www.neurology.org/doi/abs/10.1212/WNL.82.10_supplement.I7-2.004",
+      "snippet": "OBJECTIVE: To perform a randomized, sham-controlled phase I/IIa trial to study safety and efficacy of deep rTMS on fatigue and depression in patients with MS (NCT01106365). …",
+      "publication_info": {
+        "summary": "S Schippling, M Tiede, I Lorenz, C Pfueller, J Doerr… - Neurology, 2014 - AAN Enterprises"
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=haZVtajqEKMJ",
+        "cited_by": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cites=11750149438127318661&as_sdt=5,33&sciodt=0,33&hl=en",
+          "cites_id": "11750149438127318661",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=11750149438127318661&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:haZVtajqEKMJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3AhaZVtajqEKMJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=11750149438127318661&hl=en&as_sdt=0,33",
+          "cluster_id": "11750149438127318661",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=11750149438127318661&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 3,
+      "title": "Effects of deep repetitive transcranial magnetic stimulation on brain-derived neurotrophic factor serum concentration in healthy volunteers",
+      "result_id": "DdkAeQXg3SsJ",
+      "link": "https://karger.com/nps/article/69/2/112/233632",
+      "snippet": "… Methods: This was a double-blind, randomized deep high-frequency rTMS study using an H-coil on a cohort of 13 healthy volunteers (NCT01106365). The following stimulation …",
+      "publication_info": {
+        "summary": "G Gaede, R Hellweg, H Zimmermann, AU Brandt… - …, 2014 - karger.com",
+        "authors": [
+          {
+            "name": "H Zimmermann",
+            "link": "https://scholar.google.com/citations?user=z1TAPY0AAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=z1TAPY0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "z1TAPY0AAAAJ"
+          },
+          {
+            "name": "AU Brandt",
+            "link": "https://scholar.google.com/citations?user=Kr5kiMkAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Kr5kiMkAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "Kr5kiMkAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "academia.edu",
+          "file_format": "PDF",
+          "link": "https://www.academia.edu/download/42940249/Effects_of_Deep_Repetitive_Transcranial_20160222-13340-qipnpk.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=DdkAeQXg3SsJ",
+        "cited_by": {
+          "total": 15,
+          "link": "https://scholar.google.com/scholar?cites=3160928827593513229&as_sdt=5,33&sciodt=0,33&hl=en",
+          "cites_id": "3160928827593513229",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=3160928827593513229&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:DdkAeQXg3SsJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3ADdkAeQXg3SsJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 11,
+          "link": "https://scholar.google.com/scholar?cluster=3160928827593513229&hl=en&as_sdt=0,33",
+          "cluster_id": "3160928827593513229",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=3160928827593513229&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "title": "Safety and efficacy of repetitive deep transcranial magnetic stimulation in multiple sclerosis",
+      "result_id": "XcaAx_lbs4EJ",
+      "link": "https://www.academia.edu/download/73127689/250785338.pdf",
+      "snippet": "Conclusion Depressivity and fatigue are among the most frequent symptoms in multiple sclerosis (MS), affecting up to 90% of patients at onset or during the course of the disease. …",
+      "publication_info": {
+        "summary": "G Gaede, M Tiede, I Lorenz, C Pfueller, J Dörr… - Journal of …, 2012 - academia.edu"
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=XcaAx_lbs4EJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:XcaAx_lbs4EJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3AXcaAx_lbs4EJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=9345914780076000861&hl=en&as_sdt=0,33",
+          "cluster_id": "9345914780076000861",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=9345914780076000861&engine=google_scholar&hl=en"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:XcaAx_lbs4EJ:scholar.google.com/+NCT01106365&hl=en&as_sdt=0,33"
+      }
+    },
+    {
+      "position": 5,
+      "title": "ECTRIMS Lecture",
+      "result_id": "Bqp-ie1iiNQJ",
+      "link": "https://search.proquest.com/openview/b314491c9a1c5fef2af742877d39f20e/1?pq-origsite=gscholar&cbl=38324",
+      "snippet": "Background: In multiple sclerosis (MS), MRI-visible grey matter (GM) atrophy appears early in the disease, increases with disease progression and correlates with disability and …",
+      "publication_info": {
+        "summary": "G Comi - Multiple sclerosis Journal, 2013 - search.proquest.com",
+        "authors": [
+          {
+            "name": "G Comi",
+            "link": "https://scholar.google.com/citations?user=J4K92zIAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=J4K92zIAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "J4K92zIAAAAJ"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Bqp-ie1iiNQJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Bqp-ie1iiNQJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3ABqp-ie1iiNQJ%3Ascholar.google.com%2F"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Transcranial magnetic stimulation (TMS) and repetitive TMS in multiple sclerosis",
+      "result_id": "eoSvOR11VhkJ",
+      "link": "https://www.degruyter.com/document/doi/10.1515/revneuro-2020-0140/html",
+      "snippet": "Multiple sclerosis (MS) is the most well-known autoimmune disorder of the central nervous system, and constitutes a major cause of disability, especially in young individuals. A wide …",
+      "publication_info": {
+        "summary": "AM Aloizou, G Pateraki, K Anargyros… - Reviews in the …, 2021 - degruyter.com",
+        "authors": [
+          {
+            "name": "AM Aloizou",
+            "link": "https://scholar.google.com/citations?user=oYc13TUAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=oYc13TUAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "oYc13TUAAAAJ"
+          },
+          {
+            "name": "K Anargyros",
+            "link": "https://scholar.google.com/citations?user=g78CfzMAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=g78CfzMAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "g78CfzMAAAAJ"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=eoSvOR11VhkJ",
+        "cited_by": {
+          "total": 22,
+          "link": "https://scholar.google.com/scholar?cites=1825775467327620218&as_sdt=5,33&sciodt=0,33&hl=en",
+          "cites_id": "1825775467327620218",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=1825775467327620218&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:eoSvOR11VhkJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3AeoSvOR11VhkJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cluster=1825775467327620218&hl=en&as_sdt=0,33",
+          "cluster_id": "1825775467327620218",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=1825775467327620218&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 7,
+      "title": "Neurophysiological markers of network dysfunction in neurodegenerative diseases",
+      "result_id": "5nO6ce3bpHAJ",
+      "type": "Html",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2213158219300567",
+      "snippet": "There is strong clinical, imaging and pathological evidence that neurodegeneration is associated with altered brain connectivity. While functional imaging (fMRI) can detect resting and …",
+      "publication_info": {
+        "summary": "R McMackin, P Bede, N Pender, O Hardiman… - NeuroImage: Clinical, 2019 - Elsevier",
+        "authors": [
+          {
+            "name": "R McMackin",
+            "link": "https://scholar.google.com/citations?user=4_VHEAoAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=4_VHEAoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "4_VHEAoAAAAJ"
+          },
+          {
+            "name": "P Bede",
+            "link": "https://scholar.google.com/citations?user=8fCUI5AAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8fCUI5AAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "8fCUI5AAAAAJ"
+          },
+          {
+            "name": "N Pender",
+            "link": "https://scholar.google.com/citations?user=NzDNCawAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NzDNCawAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "NzDNCawAAAAJ"
+          },
+          {
+            "name": "O Hardiman",
+            "link": "https://scholar.google.com/citations?user=JRAscjoAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JRAscjoAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "JRAscjoAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "sciencedirect.com",
+          "file_format": "HTML",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2213158219300567"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=5nO6ce3bpHAJ",
+        "html_version": "https://www.sciencedirect.com/science/article/pii/S2213158219300567",
+        "cited_by": {
+          "total": 40,
+          "link": "https://scholar.google.com/scholar?cites=8116854241290253286&as_sdt=5,33&sciodt=0,33&hl=en",
+          "cites_id": "8116854241290253286",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=8116854241290253286&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:5nO6ce3bpHAJ:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3A5nO6ce3bpHAJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 9,
+          "link": "https://scholar.google.com/scholar?cluster=8116854241290253286&hl=en&as_sdt=0,33",
+          "cluster_id": "8116854241290253286",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=8116854241290253286&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "title": "Efectividad y seguridad de la estimulación magnética transcraneal en pacientes con esclerosis múltiple. Revisión sistemática",
+      "result_id": "vOdWDkKFgO4J",
+      "type": "Pdf",
+      "link": "https://repositoriosalud.es/bitstream/10668/22613/4/EfectividadYSeguridad_2022.pdf",
+      "snippet": "Se ha evaluado la efectividad clínica y la seguridad de la estimulación magnética transcraneal (EMT) en el tratamiento de pacientes diagnosticados de esclerosis múltiple (EM) …",
+      "publication_info": {
+        "summary": "JE Martín López, L Aguilera Cobos, R Isabel Gómez… - 2022 - repositoriosalud.es",
+        "authors": [
+          {
+            "name": "JE Martín López",
+            "link": "https://scholar.google.com/citations?user=bFAKYtIAAAAJ&hl=en&oi=sra",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=bFAKYtIAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "bFAKYtIAAAAJ"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "repositoriosalud.es",
+          "file_format": "PDF",
+          "link": "https://repositoriosalud.es/bitstream/10668/22613/4/EfectividadYSeguridad_2022.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=vOdWDkKFgO4J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:vOdWDkKFgO4J:scholar.google.com/&scioq=NCT01106365&hl=en&as_sdt=0,33",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&q=related%3AvOdWDkKFgO4J%3Ascholar.google.com%2F"
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "nct01106365 breast cancer",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=1&q=nct01106365+breast+cancer&qst=bl"
+    },
+    {
+      "query": "nct01106365 trial",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=2&q=nct01106365+trial&qst=bl"
+    },
+    {
+      "query": "nct01106365 nejm",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=3&q=nct01106365+nejm&qst=bl"
+    },
+    {
+      "query": "nct01106365 mice",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=4&q=nct01106365+mice&qst=bl"
+    },
+    {
+      "query": "nct01106365 mouse",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=5&q=nct01106365+mouse&qst=bl"
+    },
+    {
+      "query": "nct01106365 nsclc",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=6&q=nct01106365+nsclc&qst=bl"
+    },
+    {
+      "query": "nct01106365 phase 3",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=7&q=nct01106365+phase+3&qst=bl"
+    },
+    {
+      "query": "nct01106365 ic50",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=8&q=nct01106365+ic50&qst=bl"
+    },
+    {
+      "query": "nct01106365 pancreatic cancer",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=9&q=nct01106365+pancreatic+cancer&qst=bl"
+    },
+    {
+      "query": "nct01106365 in vitro",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=10&q=nct01106365+in+vitro&qst=bl"
+    },
+    {
+      "query": "nct01106365 ovarian cancer",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=11&q=nct01106365+ovarian+cancer&qst=bl"
+    },
+    {
+      "query": "nct01106365 lung cancer",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=12&q=nct01106365+lung+cancer&qst=bl"
+    },
+    {
+      "query": "nct01106365 clinical",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,33&qsp=13&q=nct01106365+clinical&qst=bl"
+    }
+  ]
+}
