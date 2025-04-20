@@ -10,6 +10,7 @@ import send from "koa-send";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 dotenv.config();
+console.log("Loaded API key:", process.env.OPENAI_API_KEY);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
