@@ -4,7 +4,7 @@ import OpenAI from "openai";
 import fs from "fs";
 import { log } from "./utils.js";
 
-const openai = new OpenAI();
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 export const SinglePublicationOutput = z.object({
   hasResults: z
