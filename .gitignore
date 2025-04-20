@@ -19,3 +19,4 @@ batch_results/*
 .RData
 !.empty
 !*.empty
+.env
