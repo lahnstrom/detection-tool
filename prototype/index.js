@@ -1,3 +1,4 @@
+import "dotenv/config";
 import Koa from "koa";
 import Router from "koa-router";
 import cors from "@koa/cors";
@@ -8,8 +9,6 @@ import serve from "koa-static";
 import path from "path";
 import send from "koa-send";
 import { fileURLToPath } from "url";
-import dotenv from "dotenv";
-dotenv.config();
 console.log("Loaded API key:", process.env.OPENAI_API_KEY);
 
 const __filename = fileURLToPath(import.meta.url);
