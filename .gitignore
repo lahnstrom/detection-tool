@@ -4,6 +4,7 @@ download_trials/node_modules
 .DS_Store
 .Rproj.user
 prototype/out
+prototype/build
 prototype/node_modules
 *.zip
 ctg-studies.json
