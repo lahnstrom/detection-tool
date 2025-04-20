@@ -9,7 +9,6 @@ import serve from "koa-static";
 import path from "path";
 import send from "koa-send";
 import { fileURLToPath } from "url";
-console.log("Loaded API key:", process.env.OPENAI_API_KEY);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
