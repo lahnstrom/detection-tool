@@ -12,7 +12,13 @@ ctg-studies-*.csv
 prototype/venv
 prototype/venv/*
 prototype/cache
+
 prototype/request_cache
+!prototype/request_cache/.empty
+!prototype/request_cache/publications/.empty
+!prototype/request_cache/registrations/.empty
+!prototype/request_cache/results/.empty
+
 database.db
 batch_results
 batch_results/*
