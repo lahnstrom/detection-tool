@@ -5,16 +5,6 @@ import cors from "@koa/cors";
 import { registrationDiscovery } from "./src/live_processing/registration_discovery.js";
 import { publicationDiscovery } from "./src/live_processing/publication_discovery.js";
 import { resultsDiscovery } from "./src/live_processing/results_discovery.js";
-import serve from "koa-static";
-import path from "path";
-import send from "koa-send";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// To avoid rate limit on chatgpt
-const LIMIT_PUBS = 15;
 
 const app = new Koa();
 const router = new Router();
@@ -105,13 +95,6 @@ router.get("/api/results/:nctId/:pmid", async (ctx) => {
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-// Serve static files from the build folder
-app.use(serve(path.join(__dirname, "build")));
-
-// Fallback for React Router
-app.use(async (ctx) => {
-  await send(ctx, "index.html", { root: path.join(__dirname, "build") });
-});
 // Start the Koa server
 const PORT = 3001;
 app.listen(PORT, () => {

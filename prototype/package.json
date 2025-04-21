@@ -23,8 +23,6 @@
     "koa": "^2.15.3",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^13.0.1",
-    "koa-send": "^5.0.1",
-    "koa-static": "^5.0.0",
     "lodash": "^4.17.21",
     "luxon": "^3.5.0",
     "node-ncbi": "^0.7.3",
