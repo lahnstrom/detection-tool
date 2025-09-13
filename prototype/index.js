@@ -12,6 +12,22 @@ const router = new Router();
 // Enable CORS for all origins
 app.use(cors());
 
+// Request duration logging middleware
+app.use(async (ctx, next) => {
+  const start = Date.now();
+  const startTime = new Date().toISOString();
+  console.log(`[${startTime}] ${ctx.method} ${ctx.url} - START`);
+
+  await next();
+
+  const end = Date.now();
+  const endTime = new Date().toISOString();
+  const duration = end - start;
+  console.log(
+    `[${endTime}] ${ctx.method} ${ctx.url} - ${ctx.status} - ${duration}ms - END`
+  );
+});
+
 // Endpoint to fetch trial data by nctId
 router.get("/api/trials/:nctId", async (ctx) => {
   try {
