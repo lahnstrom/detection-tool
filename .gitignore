@@ -1,28 +1,26 @@
-~$*.docx
-download_trials/out
-download_trials/node_modules
-.DS_Store
-.Rproj.user
-prototype/out
-prototype/build
-prototype/node_modules
-*.zip
-ctg-studies.json
-ctg-studies-*.csv
-prototype/venv
-prototype/venv/*
-prototype/cache
-
-prototype/request_cache
-!prototype/request_cache/.empty
-!prototype/request_cache/publications/.empty
-!prototype/request_cache/registrations/.empty
-!prototype/request_cache/results/.empty
-
-database.db
-batch_results
-batch_results/*
-.RData
-!.empty
-!*.empty
+node_modules/
 .env
+tool/.env
+
+# Runtime caches
+tool/cache/
+tool/request_cache/
+
+# Batch output (keep .empty sentinels)
+tool/batch_results/*
+!tool/batch_results/.empty
+!tool/batch_results/**/.empty
+
+# Output (keep .empty sentinel)
+tool/out/*
+!tool/out/.empty
+
+# Progress state
+tool/progress.json
+
+# OS / editor
+.DS_Store
+*.zip
+
+# Database
+database.db

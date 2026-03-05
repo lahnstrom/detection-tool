@@ -1,154 +1,79 @@
-# Deployment Instructions for MetaResearch Site
+# Deployment Guide
 
-This document outlines all the steps taken to get the site running on the DigitalOcean.
+## Server provisioning
 
----
+1. Create an Ubuntu droplet on [DigitalOcean](https://www.digitalocean.com/) with an SSH key.
+2. SSH in:
+   ```bash
+   ssh root@164.92.210.200
+   ```
+3. Install Node.js v22.7+ (via [nvm](https://github.com/nvm-sh/nvm) or NodeSource):
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+   source ~/.bashrc
+   nvm install 22
+   ```
+4. Install build tools (needed for native npm modules):
+   ```bash
+   apt update && apt install -y make build-essential
+   ```
 
-## 1. Provisioning the Server on DigitalOcean
-
-- Create a new Ubuntu-based droplet on [DigitalOcean](https://www.digitalocean.com/).
-- Select a node.js/nginx image if available
-- Generate an SSH key locally if you don't already have one:
-
-```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-- Copy the public key to your clipboard:
-  ```bash
-  cat ~/.ssh/id_ed25519.pub
-  ```
-- Go to https://cloud.digitalocean.com/account/security
-- Click 'Add SSH Key', paste your key, and give it a name
-- Then create your droplet and select that SSH key
-- Once the droplet is created, connect to the server via SSH:
-  ```bash
-  ssh root@164.92.210.200
-  ```
+## First-time setup
 
 ```bash
-ssh root@164.92.210.200
-```
-
----
-
-## 2. Installing Required Packages
-
-Install `make`, build tools, and Node.js dependencies:
-
-```bash
-apt update
-apt install -y make build-essential
-```
-
-If not already installed, install Node.js and npm using `nvm` or from NodeSource.
-
----
-
-## 3. Cloning the Repositories
-
-Clone both frontend and backend repositories:
-
-```bash
-git clone https://github.com/lahnstrom/vis-nordic.git
 git clone https://github.com/lahnstrom/detection-tool.git
+cd detection-tool/tool
+cp .env.example .env
+# Edit .env — add OPENAI_API_KEY, SERPER_API_KEY, optionally PUBMED_API_KEY
+
+cd ..
+./deploy.sh --setup
 ```
 
-Navigate to each repo and install dependencies:
+This installs PM2 globally, configures it to start on boot, and installs Playwright system dependencies.
 
-```bash
-cd vis-nordic
-npm install
-
-cd ../detection-tool/prototype
-npm install
-```
-
----
-
-## 4. Building the Frontend and Copying to the Backend
-
-From within the `vis-nordic` folder:
-
-```bash
-npm run build
-```
-
-Then copy the build output into the backend's `build` folder:
-
-```bash
-cp -r build ../detection-tool/prototype/build
-```
-
----
-
-## 5. Configuring Nginx
-
-Edit the default site config:
-
-```bash
-nano /etc/nginx/sites-available/default
-```
-
-Ensure the following:
-
-- Replace the config with the one kept in this repository under nginx/default
-- SSL and redirect blocks are configured (automatically added by Certbot)
-
-Reload Nginx:
-
-```bash
-nginx -t
-systemctl reload nginx
-```
-
----
-
-## 6. Running the Server with PM2
-
-From inside the `detection-tool/prototype` project directory:
-
-```bash
-pm2 start index.js --name detection-tool
-```
-
----
-
-## 7. Ensuring PM2 Persistence
-
-Save the current process list and enable startup on boot:
-
-```bash
-pm2 save
-pm2 startup
-```
-
-Follow the output instructions to run the `systemctl` command that sets up the startup script.
-
----
-
-## 8. Setting Up SSL with Certbot
-
-Install Certbot and the Nginx plugin:
+## SSL setup
 
 ```bash
 apt install certbot python3-certbot-nginx -y
-```
-
-Run Certbot to enable HTTPS:
-
-```bash
 certbot --nginx -d metaresearch.se -d www.metaresearch.se
+certbot renew --dry-run   # verify auto-renewal
 ```
 
-Choose the option to redirect HTTP to HTTPS when prompted.
+## Frontend deployment
 
-Verify auto-renewal is working:
+To also deploy the vis-nordic frontend:
 
 ```bash
-certbot renew --dry-run
+./deploy.sh --with-frontend
 ```
 
----
+This clones vis-nordic, builds it, and copies the output to `/var/www/metaresearch/`.
 
-✅ Deployment complete! Your site should now be accessible at https://metaresearch.se with a secure SSL certificate and a persistent Node.js backend.
+## Ongoing deploys
+
+```bash
+ssh root@164.92.210.200
+cd /root/detection-tool
+./deploy.sh
+```
+
+The deploy script:
+1. Pulls latest code from `origin/main`
+2. Runs `npm install --production` in `tool/`
+3. Verifies `tool/.env` exists
+4. Diffs nginx config and reloads if changed
+5. Restarts the PM2 process (`trialscout`)
+
+## Nginx
+
+The nginx config is kept in `nginx/default`. It proxies `/api/` to `localhost:3001` and serves the frontend SPA from `/var/www/metaresearch/`. SSL blocks are managed by Certbot.
+
+## PM2 commands
+
+```bash
+pm2 status              # Check process status
+pm2 logs trialscout     # View logs
+pm2 restart trialscout  # Manual restart
+pm2 save                # Persist process list
+```
