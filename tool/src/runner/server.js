@@ -77,8 +77,8 @@ router.get("/api/trials/:nctId", async (ctx) => {
 });
 
 router.get("/api/publications/:nctId", async (ctx) => {
+  const trialId = ctx.params.nctId;
   try {
-    const trialId = ctx.params.nctId;
 
     if (!trialId) {
       ctx.status = 400;
@@ -97,7 +97,11 @@ router.get("/api/publications/:nctId", async (ctx) => {
     );
 
     if (pubs) {
-      ctx.body = { pubs, errors };
+      const sanitizedErrors = errors.map((e) => ({
+        strategy: e.fn,
+        error: "Strategy failed",
+      }));
+      ctx.body = { pubs, errors: sanitizedErrors };
     } else {
       ctx.status = 404;
       ctx.body = { error: "Publications not found" };
