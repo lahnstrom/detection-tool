@@ -7,7 +7,7 @@ PM2_NAME="trialscout"
 ENTRY="src/runner/server.js"
 NGINX_SRC="$REPO_DIR/nginx/default"
 NGINX_DEST="/etc/nginx/sites-available/default"
-FRONTEND_REPO="https://github.com/lahnstrom/vis-nordic.git"
+FRONTEND_REPO="git@github.com:lahnstrom/vis-nordic.git"
 FRONTEND_DIR="/var/www/metaresearch"
 
 SERVER="root@164.92.210.200"
